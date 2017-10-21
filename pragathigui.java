@@ -36,7 +36,7 @@ public Frame() {
 
 
     JPanel motherPanel = new JPanel();
-        motherPanel.setLayout(new BoxLayout(motherPanel, BoxLayout.Y_AXIS));
+        motherPanel.setLayout(new BoxLayout(motherPanel, BoxLayout.Y_AXIS)); 
 
     JPanel textPanel = new JPanel();
         textPanel.setPreferredSize(new Dimension(160, 20));
